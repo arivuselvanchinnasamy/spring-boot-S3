@@ -1,0 +1,17 @@
+#Application properties
+server:
+  port: 8082
+  
+#AWS properties
+cloud:
+  aws:
+    credentials:
+      accessKey: <>
+      secretKey: <>
+    region:
+      auto: false
+      static: us-east-1
+    stack:
+      auto: false
+    s3:
+     bucket: spring-boot-s3test
